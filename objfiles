@@ -1,0 +1,6 @@
+-n OBJS = 
+main.o renderer.o 
+
+
+a.out : $(OBJS)
+	g++ $(OBJS)

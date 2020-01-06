@@ -6,9 +6,6 @@ class Renderer
 {
 
 public:
-    Renderer();
-
-    void test();
-    void render();
-    void createContext();
+    static void init();
+    static void render();
 };

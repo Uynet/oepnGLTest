@@ -12,7 +12,7 @@ static int width = 640;
 static int height = 480;
 static std::string title = "Hello, OpenGL";
 
-Renderer::Renderer()
+void Renderer::init()
 {
 
     if (!glfwInit())
@@ -30,10 +30,6 @@ Renderer::Renderer()
     glfwMakeContextCurrent(glWindow);
     std::cout << glfwGetVersionString() << std::endl; // Returns a string describing the compile-time configuration.
     glClearColor(1, 1, 1, 1);
-}
-void Renderer::test()
-{
-    cout << "debugLog" << endl;
 }
 void Renderer::render()
 {

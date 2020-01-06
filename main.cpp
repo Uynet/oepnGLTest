@@ -7,6 +7,6 @@
 
 int main()
 {
-    Renderer renderer = Renderer();
-    renderer.render();
+    Renderer::init();
+    Renderer::render();
 }
