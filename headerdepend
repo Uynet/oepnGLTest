@@ -1,0 +1,4 @@
+main.o: renderer.h
+renderer.o: renderer.h
+main.o: renderer.h
+renderer.o: renderer.h
